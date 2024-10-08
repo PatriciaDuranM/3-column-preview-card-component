@@ -1,0 +1,118 @@
+/* FUENTES
+.big-shoulders-display-<uniquifier> {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+
+  // <uniquifier>: Use a unique and descriptive class name
+
+.lexend-deca-<uniquifier> {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+}*/
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    width: 327px;
+}
+
+p{
+    color: rgb(255, 255, 255, 75%);
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+.icon{ 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(151, 151, 151, 20.14%);
+    margin-bottom: 35px;
+}
+.section{
+    width: 327px;
+    height: 442px;
+    padding: 48px;
+    color: #F2F2F2;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+}
+.section1{
+    background-color: #E28625 ;
+    
+}
+.section2{
+    background-color: #006971;
+}
+.section3{
+    background-color: #004140;
+}
+
+.title{
+    font-family: "Big Shoulders Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.cta{
+    background-color: #F2F2F2 ;
+    width: 146px;
+    height: 48px;
+    border-radius:25px;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+}
+.cta1{
+    color: #E28625;
+}
+.cta2{
+    color: #006971;
+}
+.cta3{
+    color: #004140;
+}
+
