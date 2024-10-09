@@ -46,7 +46,6 @@ ul{
 body{
     font-family: sans-serif;
     margin: 0;
-    width: 327px;
 }
 
 p{
@@ -74,6 +73,12 @@ p{
     color: #F2F2F2;
     font-family: "Lexend Deca";
     font-weight: 400;
+}
+@media screen and (width>768px) {
+    .section{
+        display: inline-block;
+    }
+    
 }
 .section1{
     background-color: #E28625 ;
@@ -106,13 +111,36 @@ p{
     font-style: normal;
     border: none;
 }
+
 .cta1{
     color: #E28625;
 }
+
+@media (hover: hover){
+    .cta1:hover{
+    background-color: #E28625;
+    color: #F2F2F2;
+    border: 2px solid #F2F2F2;
+    }
+}
+
 .cta2{
     color: #006971;
+}
+@media (hover: hover){
+    .cta2:hover{
+    background-color: #006971;
+    color: #F2F2F2;
+    border: 2px solid #F2F2F2;
+    }
 }
 .cta3{
     color: #004140;
 }
-
+@media (hover: hover){
+    .cta3:hover{
+    background-color: #004140;
+    color: #F2F2F2;
+    border: 2px solid #F2F2F2;
+    }
+}
