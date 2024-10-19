@@ -76,9 +76,8 @@ p{
 }
 @media screen and (width>768px) {
     .section{
-        display: inline-block;
+        display:inline-block;
     }
-    
 }
 .section1{
     background-color: #E28625 ;
